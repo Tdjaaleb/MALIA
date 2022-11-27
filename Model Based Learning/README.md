@@ -39,7 +39,7 @@ La fonction entraîne deux modèles : un modèle à $k$ gaussiennes et un modèl
 
 La fonction renvoit en sortie un objet de classe $\texttt{Model}$ .
 
-**Disclaimer : il est parfois nécessaire de relancer la fonction plusieurs fois car il arrive que celle-ci converge vers un mauvais maxima. De plus il est possible qu'un message d'erreur apparaisse si des points sont trop éloignés, ceci est dû à la fonction $\texttt{scipy.stats.multivariate\_normal.pdf()}$ qui renvoit parfois des 0 car la valeur est inférieure à 10^-16.
+**Disclaimer : il est parfois nécessaire de relancer la fonction plusieurs fois car il arrive que celle-ci converge vers un mauvais maxima. De plus il est possible qu'un message d'erreur apparaisse si des points sont trop éloignés, ceci est dû à la fonction $\texttt{scipy.stats.multivariate\\_normal.pdf()}$ qui renvoit parfois des 0 car la valeur est inférieure à 10^-16.
 
 ## La classe $\texttt{Model}$
 
