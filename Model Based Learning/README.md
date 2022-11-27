@@ -64,3 +64,7 @@ $\texttt{Model.params}$ : renvoie les paramètres du modèle.
 $\texttt{Model.plot()}$ : projette les points en deux dimensions et les colore selon leur appartenance aux clusters.
 
 $\texttt{Model.Model.plot\\_llh()}$ : trace l'evolution de la *log likelihood* (si celle-ci est constante, alors l'initialisation avait déjà convergé).
+
+## Exemple
+
+Un exemple d'utilisation est proposé dans le fichier *Example.ipynb*
