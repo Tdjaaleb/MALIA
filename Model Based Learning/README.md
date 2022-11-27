@@ -6,17 +6,17 @@
 
 L'objectif de l'algorithme EMout est de proposer un modèle de mélange capable de détecter les outliers pour un problème de clustering. Si l'algorithme ne détecte pas d'outliers, alors le modèle sera un mélange de $k$ gaussiennes. En revanche, si l'algorithme détecte des outliers, alors le modèle sera un mélange de $k$ gaussiennes et d'une loi uniforme représentant la distribution des outliers.
 
-### La fonction $\texttt{EM}$
+## La fonction $\texttt{EM}$
 
 La fonction requiert 4 paramètres en entrée : les données ( $\texttt{data}$ ), le nombre de clusters ( $\texttt{clusters}$ ), le nombre d'itération pour chaque algorithme EM ( $\texttt{iter}$ ) et le nombre d'initilisation aléatoire pour les paramètres du modèle ( $\texttt{init}$ ).
 
 La fonction renvoit en sortie un objet de classe $\texttt{Model}$ .
 
-### La classe $\texttt{Model}$
+## La classe $\texttt{Model}$
 
 La classe $\texttt{Model}$ possède 7 instances et 2 méthodes
 
-#### Instance
+### Instance
 
 $\texttt{Model.data}$ : renvoie les données.
 
@@ -26,7 +26,7 @@ $\texttt{Model.tik}$ : renvoie les probabilités de chaque données d'appartenir
 
 $\texttt{Model.clusters}$ : renvoie le cluster associé à chaque observation.
 
-$\texttt{Model.log\_likelihood}$ : renvoie la valeur de la *log likelihood* à chaque itération.
+$\texttt{Model.log\\_likelihood}$ : renvoie la valeur de la *log likelihood* à chaque itération.
 
 $\texttt{Model.bic}$ : renvoie la valeur du critère BIC pour le modèle choisi.
 
