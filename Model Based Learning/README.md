@@ -26,7 +26,9 @@ L'objectif de l'algorithme EMout est de proposer un modèle de mélange capable 
 
 ### En local
 
-Il faut télécharger le *repository* \href{https://github.com/Tdjaaleb/MALIA} 
+Il faut télécharger le *repository* à l'adresse suivante https://github.com/Tdjaaleb/MALIA puis extraire le fichier *EMout.py*. Il faut ensuite copier ce fichier dans le repertoire de travail. Enfin il suffit d'importer la fonction.
+
+`from EMout import EM`
 
 
 ## La fonction $\texttt{EM}$
