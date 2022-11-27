@@ -13,3 +13,4 @@ La fonction requiert 4 paramètres en entrée : les données ( $\texttt{data}$ )
 La fonction renvoit en sortie un objet de classe $\texttt{Model}$ .
 
 ### La classe $\texttt{Model}$
+
