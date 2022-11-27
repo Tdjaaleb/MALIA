@@ -26,6 +26,7 @@ L'objectif de l'algorithme EMout est de proposer un modèle de mélange capable 
 
 ### En local
 
+Il faut télécharger le *repository* \href{https://github.com/Tdjaaleb/MALIA} 
 
 
 ## La fonction $\texttt{EM}$
