@@ -14,3 +14,20 @@ La fonction renvoit en sortie un objet de classe $\texttt{Model}$ .
 
 ### La classe $\texttt{Model}$
 
+La classe $\texttt{Model}$ possède 7 instances et 2 méthodes
+
+#### Instance
+
+$\texttt{Model.data}$ : renvoie les données.
+
+$\texttt{Model.uniform}$ : renvoie $\texttt{False}$ si le modèle ne contient pas d'outliers, $\texttt{True}$ sinon.
+
+$\texttt{Model.tik}$ : renvoie les probabilités de chaque données d'appartenir à chaque classe.
+
+$\texttt{Model.clusters}$ : renvoie le cluster associé à chaque observation.
+
+$\texttt{Model.log\_likelihood}$ : renvoie la valeur de la *log likelihood* à chaque itération.
+
+$\texttt{Model.bic}$ : renvoie la valeur du critère BIC pour le modèle choisi.
+
+$\texttt{Model.params}$ : renvoie les paramètres du modèle.
