@@ -1,6 +1,6 @@
 # Package EMout
 
-** Authors : Tom Djaaleb & Hugo Attali **
+**Authors : Tom Djaaleb & Hugo Attali**
 
 *Ce travail a été réalisé dans le cadre du projet du cours "Model Based Learning" du Master 2 MALIA de l'Université Lyon 2*
 
