@@ -24,6 +24,10 @@ L'objectif de l'algorithme EMout est de proposer un modèle de mélange capable 
 
 `from EMout import EM`
 
+### En local
+
+
+
 ## La fonction $\texttt{EM}$
 
 La fonction requiert 4 paramètres en entrée : les données ( $\texttt{data}$ ), le nombre de clusters ( $\texttt{clusters}$ ), le nombre d'itération pour chaque algorithme EM ( $\texttt{iter}$ ) et le nombre d'initilisation aléatoire pour les paramètres du modèle ( $\texttt{init}$ ).
