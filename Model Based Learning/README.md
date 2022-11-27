@@ -12,12 +12,12 @@ L'objectif de l'algorithme EMout est de proposer un modèle de mélange capable 
 
 ### Sur Google Colab
 
-`import os
-ROOT_DIR = os.path.abspath("/content")
-os.chdir(ROOT_DIR)
-!git clone https://github.com/Tdjaaleb/MALIA
-os.chdir("MALIA/Model Based Learning")
-from EMout import EM`
+`import os`
+`ROOT_DIR = os.path.abspath("/content")`
+`os.chdir(ROOT_DIR)`
+`!git clone https://github.com/Tdjaaleb/MALIA`
+`os.chdir("MALIA/Model Based Learning")`
+`from EMout import EM`
 
 ## La fonction $\texttt{EM}$
 
