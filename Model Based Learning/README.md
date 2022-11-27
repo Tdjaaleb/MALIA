@@ -12,6 +12,8 @@ L'objectif de l'algorithme EMout est de proposer un modèle de mélange capable 
 
 La fonction requiert 4 paramètres en entrée : les données ( $\texttt{data}$ ), le nombre de clusters ( $\texttt{clusters}$ ), le nombre d'itération pour chaque algorithme EM ( $\texttt{iter}$ ) et le nombre d'initilisation aléatoire pour les paramètres du modèle ( $\texttt{init}$ ).
 
+La fonction entraîne deux modèles : un modèle à $k$ gaussiennes et un modèle à $k$ gaussiennes + une uniforme avec l'algorithme EM. Le modèle ayant le critère BIC le plus élevé est choisi et renvoyé par la fonction.
+
 La fonction renvoit en sortie un objet de classe $\texttt{Model}$ .
 
 ## La classe $\texttt{Model}$
