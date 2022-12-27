@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def Get_national_data(year):
     '''
@@ -19,8 +20,13 @@ def Get_national_data(year):
         df = df.drop(to_drop, axis=1)
         df = df.dropna()
         data = pd.concat([data,df])
+    
     ind = []
     for i in range(data.shape[0]):
         ind.append(i)
     data.index = ind
+
+    data = data.replace("ND", np.NaN)
+    data["Consommation"] = data["Consommation"].astype("float64")
+
     return data
