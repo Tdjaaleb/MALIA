@@ -27,4 +27,4 @@ Pour effectuer l'entraînement du modèle, nous choisissons de lancer l'entraîn
 
 Nous obtenons une RMSE de **2270.85** sur les données tests.
 
-### Notre modèle pour la suite sera donc le GradientBoosting
+### Notre modèle pour la suite sera donc le GradientBoosting.
