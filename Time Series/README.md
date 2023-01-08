@@ -10,7 +10,7 @@ Site : https://www.rte-france.com/eco2mix/telecharger-les-indicateurs
 Nous récupérons également les données météo des années 2016 à 2022.
 Site : https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=90&id_rubrique=32
 
-## Étape numéro 2 : Processing des données
+## Étape numéro 2 : Preprocessing des données
 
 Nous mettons en forme les données et interpolons les données manquantes à l'aide d'une interpolation cubique.
 Nous crééons ensuite des covariables pouvant être utiles à la prédiction.
