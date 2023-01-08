@@ -14,10 +14,10 @@ $\text{metric}= \frac{1}{13} \sum_{i} \frac{RMSE_r(y_i,\hat{y}_i^r) - RMSE_b(y_i
 Avec $RMSE_r$ la RMSE de la série réconciliée et $\hat{y}_i^r$ la prédiction réconciliée, $RMSE_b$ la RMSE de la série prédite indépendemment et $\hat{y}_i^b$ la prédiction de la série indépendante. Nous divisons ensuite la somme par 13 (Nationale + 12 régions).
 Le modèle qui obtient la plus petite *metric* est considéré comme étant le plus performant. A noté que cette métrique est fortement dépendante de $\hat{y}_i^b$ et donc des modèles entraînés.
 
-#### *Ordinary Least Squares (OLS)*
+### *Ordinary Least Squares (OLS)*
 Avec cette méthode nous obtenons une variation moyenne de la RMSE de 2.52%.
 
-#### *Structurally Weighted Least Squares (WLSS)*
+### *Structurally Weighted Least Squares (WLSS)*
 Avec cette méthode nous obtenons une variation moyenne de la RMSE de 0.29%.
 
 Ces résultats sont valides pour les modèles entraînés dans le notebook. En effectuant plusieurs exécutions nous obtenons des résultats différents, mais la méthode WLSS semble toujours être plus performante que la méthode WLSS.
