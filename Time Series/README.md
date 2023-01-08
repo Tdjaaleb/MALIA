@@ -32,3 +32,13 @@ Dans cette partie, nous testons deux méthodes de réconciliation des données *
 ## Étape numéro 5 : Aggregation
 
 Nous construisons trois modèles experts pour la prévision des données nationales puis aggrégeons les prédictions à l'aide d'un algorithme d'aggrégation sequentielle.
+
+## Étape numéro 6 : Données Covid
+
+Les périodes de confinement étant très probablement particulières, nous avons décidé de ne pas utiliser les années 2020 et 2021 dans notre ensemble d'entraînement. Néanmoins, nous avons voulu tester notre modèle Gradient Boosting pendant le premier confinement (Mars-Avril 2020). Sur cette période, nous obtenons un RMSE de 3131 contre 2537 sur la période Mars-Avril 2022. Notre modèle est donc sensible à des événements inatendus.
+
+## Conclusion et perspective
+
+Notre modèle final est donc un **Gradient Boosting** avec 1000 arbres ayant une profondeur maximum de 5, entraîné avec un *learning rate* de 0.01. Nous préconisons la méthode **Structurally Weighted Least Squares** *post-forecasting* pour la réconciliation entre les prédictions nationales et régionales. La prédiction aggrégée par plusieurs experts ne donne pas des résultats satisfaisants.
+
+Une idée pour la suite qui nous est venue serait de construire une librairie Python pour l'algorithme d'aggrégation séquentielle de plusieurs experts.
