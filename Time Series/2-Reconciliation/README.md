@@ -15,9 +15,9 @@ Avec $RMSE_r$ la RMSE de la série réconciliée et $\hat{y}_i^r$ la prédiction
 Le modèle qui obtient la plus petite *metric* est considéré comme étant le plus performant. A noté que cette métrique est fortement dépendante de $\hat{y}_i^b$ et donc des modèles entraînés.
 
 ### *Ordinary Least Squares (OLS)*
-Avec cette méthode nous obtenons une variation moyenne de la RMSE de 2.52%.
+Avec cette méthode nous obtenons une variation moyenne de la RMSE de +2.52%.
 
 ### *Structurally Weighted Least Squares (WLSS)*
-Avec cette méthode nous obtenons une variation moyenne de la RMSE de 0.29%.
+Avec cette méthode nous obtenons une variation moyenne de la RMSE de +0.29%.
 
 Ces résultats sont valides pour les modèles entraînés dans le notebook. En effectuant plusieurs exécutions nous obtenons des résultats différents, mais la méthode WLSS semble toujours être plus performante que la méthode WLSS.
