@@ -1,5 +1,7 @@
 # 3-Aggregation
 
+Cette étape du projet nous a posé un problème pour l'effectuer en python, nous avons donc décidé de la faire en R. Cependant il serait intéressant de constuire une librairie python pour résoudre cette tâche.
+
 Dans cette partie, nous réalisons une prédiction aggrégée par plusieurs modèles sur la consommation nationale. Les trois modèles choisis sont :
 - Random Forest
 - Gradient Boosting
