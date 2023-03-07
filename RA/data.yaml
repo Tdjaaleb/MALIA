@@ -1,1 +1,8 @@
+train: ./mnt/data3/sdss/trainall/trainall.txt
+test: ./mnt/data3/sdss/trainall/valall.txt
 
+##Number of classes
+nc: 5
+
+##Class names
+names: ['Elliptical', 'Spiral', 'Edge-on', 'Unknown', 'Merge']
